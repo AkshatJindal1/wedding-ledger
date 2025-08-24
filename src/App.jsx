@@ -54,7 +54,7 @@ const firebaseConfig = {
 };
 
 // --- Whitelisted User IDs ---
-const AUTHORIZED_UIDS = ["VlzQ1cDTufZ1msTjourAz3Jz6eE3", "UID_OF_ABHILASHA"];
+const AUTHORIZED_UIDS = [import.meta.enc.VITE_AKSHAT_AUTHORIZED_UID, "UID_OF_ABHILASHA"];
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
