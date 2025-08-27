@@ -11,9 +11,11 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
         name: 'Wedding Ledger',
-        short_name: 'WeddingLedger',
+        short_name: 'Wedding Ledger',
         description: 'An app to track wedding expenses for Akshat & Abhilasha.',
         theme_color: '#ffffff',
+        "background_color": "#000000",
+        "display": "standalone",
         icons: [
           {
             src: 'pwa-192x192.png',
